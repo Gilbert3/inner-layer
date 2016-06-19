@@ -1,0 +1,29 @@
+*{
+		padding:0;margin:0px;
+
+	}
+	.page { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+	.header { height: 62px; position: absolute; top: 0; right: 0; left: 0; background-color: red; }
+	.side { width: 200px; position: absolute; top: 62px; bottom: 0; left: 0; background-color: blue;}
+	.content { position: absolute; top: 62px; right: 0; bottom: 0; left: 200px; overflow: auto; }
+	.container {
+    position: absolute; top: 0; left: 0; bottom: 0; width: 100%;
+    background-color: rgba(0,0,0,.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+    overflow: auto;
+}
+:root .container {
+    /* IE9 无 filter */
+    filter: none;
+}
+dialog{
+	width:600px;
+	margin:100px auto;
+	height:16000px;
+	background-color: #fff;
+	display: block;
+}
+#spana{
+	margin-top:200px;
+	display:block;
+}
